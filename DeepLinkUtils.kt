@@ -15,10 +15,10 @@ import com.google.firebase.dynamiclinks.ktx.component2
 
 object DeepLinkUtils {
 
-  private  const val coreStepWebsiteUrl = "https://www.corebanknigeria.com/"
-  private  const val coreStepDeeplinkUrl = "https://corestep.page.link"
-  private  const val coreStepAndroidDomainName = "com.Corestep.androidapp"
-  private  const val coreStepIosDomainName = "com.Corestep.iosapp"
+  private  const val coreStepWebsiteUrl = "https://www.example.com/"
+  private  const val coreStepDeeplinkUrl = "https://example.page.link"
+  private  const val coreStepAndroidDomainName = "com.example.androidapp"
+  private  const val coreStepIosDomainName = "com.example.iosapp"
 
 
     fun generateDeepLink(customerId: String, action: (String?) -> Unit){
